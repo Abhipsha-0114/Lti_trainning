@@ -6,4 +6,7 @@ System.out.println("hello");
 }
 public void m2()
 {}
+  public void m3()
+  {}
+  
 }
