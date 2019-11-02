@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <style>
+            div{
+                width:200px;
+                height:300px;
+                align-self: center;
+                background-color: cornflowerblue;
+                animation-name: changeColorAndPosition;
+                animation-duration: 10s;
+                position: relative;
+                
+                animation-iteration-count: 2;
+            }
+            @keyframes changecolor{
+                from{
+                    background-color: green;
+                }
+                to{
+                    background-color: blue;
+                }
+            }
+            @keyframes changeColorAndPosition {
+                0%{background-color:yellow;left:0px;top:0px}
+                25%{background-color:rgb(104, 15, 56);left:80px;top:80px}
+                50%{background-color:rgb(231, 7, 7);left:150px;top:150px}
+                75%{background-color:rgb(7, 253, 101);left:300px;top:300px}
+                
+                
+                
+            }
+            </style>
+    </head>
+    <body>
+        <div>this is a div</div>
+    </body>
+</html>
