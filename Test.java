@@ -4,4 +4,9 @@ class Test
     {
         System.out.println("hello ! I am the master");
     }
+
+    public void branch1()
+    {
+        System.out.println("hello ! I am the branch1");
+    }
 }
